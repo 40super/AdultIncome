@@ -1,0 +1,21 @@
+Goals of this analysis: The goal of this analysis is to take information from 2020 - 2024 and answer some questions that can help with finding trends and such. On top, the next step after finding trends and answers will be creating a machine learning model that will predict whether a person will make over 50k or less than 50k.
+
+Here are some questions that will be answered for this data analysis.
+
+
+1. Is there a correlation with age and wages?
+
+
+2. Does having a higher degree correlate with income?
+
+3. Does being a certain race have any correlation with family size ?
+
+4. does certain race have a better chance in attaining higher income?
+
+5. does citizenship provide any insight on whether someone is financially stable or not?
+
+6. does location factor into someone's financial success?
+
+7. does people location influence on what industry they want to go into.
+
+8. does certain race go to certain location to settle down?
