@@ -19,3 +19,4 @@ Here are some questions that will be answered for this data analysis.
 7. does people location influence on what industry they want to go into.
 
 8. does certain race go to certain location to settle down?
+

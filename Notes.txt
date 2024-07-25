@@ -1,0 +1,19 @@
+07/25/24: 
+Gonna take some notes on the process I have been doing..
+
+In addition to those possible questions, I think doing an analysis per race can help understand trends within race and then go to a overall answer to general facts based on that.
+
+In terms of labeling, I think I will add a year of data at the end for columns to separate.
+
+I started importing the first set of data (epi_cpsbasic_2020.dta) data to a notebook where I then started listing any significant columns that might help with my analysis and possibly in creating a machine learning prediction model but that is not important now. I started the cleansing part where I created a dataframe with a set of columns that had significance in the analysis most likely but as I import columns, I also check if there are any 'NaN' values. I started catching columns where there were about > 1 million entries that are NaN which hinders the analysis because some of these columns can help with understanding the bigger picture. So for now I will remove them if there are too many missing from the equation and look for other variables.
+
+After some digging I ended up with this column list : ['region','statefips','age','female','wbhao','educ','faminc','emp','dlfstat','dind03','mocc10','occ18','multjobs','numjobs','metstat','cbsasize','citistat','citizen','famrel','married','veteran','basicwgt']
+census_2020 = epi_dta_2020_df[datacolumns]
+
+I also found out with the pandas .read_stata function, I was able to keep the value as categorical so the output won't be numbers but rather the categories. I will have to look into this and see if there is a way to use this for machine learning but I will most likely have to create nominal data that represents the categories.
+
+If I drop all NA and have a clean dataset, I will go from 1.2 mil to 550k. This is about 55% loss but with a sample size this big, I believe the loss won't be significant. In Addition, all the data is categorical so there are no numbers or variables that can be normalized instead of dropping. I did try to see if there were other columns I can import to lessen the NaN count but majority of the variables are needed.
+
+After some digging, All of the NaN value were because of unemployment. If employed they would have data so we are gonna assume employment
+
+I wrapped up and created a function that will process the epi data and clean it so it can be then moved to the next steps.
