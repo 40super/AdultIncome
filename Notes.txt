@@ -39,3 +39,7 @@ The next step is to rename columns in the excel file to be used later for Tablea
 
 I began cleaning with excel and changing columns names to be more readable and as well as change datatypes such age from text to int. In addition, I binned ages as well for analytical purposes where ages less 43 was in one bin while ages greater than 42 in another bin. I the created multiple pivot tables to see if there was a correlation between age and income which after analyzing the data there was no correlation. I then create a simple visualization to show the distribution of the ages to show there is no bias.
 Next step is to do more pivot table analysis before moving on to Tableau
+
+
+08/13/24:
+I did the next two analysis question which was income based on race and income based on education. I created more pivot tables as well as  some charts to visualize that. Gonna do a couple more and then move on to Tableau.
