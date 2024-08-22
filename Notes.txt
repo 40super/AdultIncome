@@ -46,3 +46,9 @@ I did the next two analysis question which was income based on race and income b
 
 08/15/24:
 I finished excel vis and made a master csv sample using python which then I imported to Tableau. Biggest issues since alot of the data is categorical and not continuous there is issues creating meaningful data so I will create basic graph highlighting certain information in the future so i can make multiple dashboards to explain each situation.
+
+08/20/24:
+Added more vis for citizenship and Gender.I will add more vis and I will finalize by creating a dashboard soon
+
+08/22/2024:
+Added some more vis as well as created a income dashboard, will look into creating one more dashboard based on occupational information probably.
