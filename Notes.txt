@@ -52,3 +52,6 @@ Added more vis for citizenship and Gender.I will add more vis and I will finaliz
 
 08/22/2024:
 Added some more vis as well as created a income dashboard, will look into creating one more dashboard based on occupational information probably.
+
+08/27/2024:
+Due to time constraints I ended up finalizing one more dashboard and publishing it to Tableau. The next step is to implement a machine learning algorithm to train on the demographic data and predict based on certain demographical information whether a person make more or less than 50k but still debating on that.
